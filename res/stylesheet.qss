@@ -1,0 +1,91 @@
+QWidget {
+    font-family: "Calibri";
+    font-size: 20px;
+    qproperty-windowIcon: url(:/ico/guardianIcon.ico);
+}
+
+QMainWindow {
+    background: #FFFFFF;
+    min-width: 600px;
+    min-height: 600px;
+    border: 1px solid #2196F3;
+}
+
+QListWidget {
+     border: none;
+     outline: 0;
+     background: transparent;
+}
+
+QListWidget::item {
+    min-height: 48px;
+    max-height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+QListWidget::item:hover {
+    background: #E6E6E6;
+}
+
+QListWidget::item #mount-point-label {
+    min-height: 36px;
+    max-height: 36px;
+    min-width: 36px;
+    max-width: 36px;
+    border-radius: 18px;
+    background : solid #FFFFFF;
+    qproperty-alignment: AlignCenter;
+    font-weight: bold;
+    color: #727272;
+}
+
+QListWidget::item #product-label {
+    margin-left: 20px;
+    background : solid #FFFFFF;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QPushButton {
+    font-family: "Calibri";
+    font-size: 21px;
+    font-weight: bold;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 36px;
+    max-height: 36px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+#header {
+    background-color: #2196F3;
+}
+
+#app-title {
+    padding-left: 18px;
+    font-family: "Calibri Light";
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#close-button {
+    min-width: 36px;
+    max-width: 36px;
+    min-height: 36px;
+    max-height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    margin-right: 18px;
+    border-image: url(:/img/closeButton.png);
+}
+
+#close-button:hover {
+    border-image: url(:/img/closeButtonHover.png);
+}
